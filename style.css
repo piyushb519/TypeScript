@@ -1,0 +1,44 @@
+
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+  
+    /* color: #f4f2f8; */
+    align-items: center;
+    
+    
+}
+th{
+    padding: 2px;
+    text-align: center;
+    
+}
+tr{
+    text-align: center;
+  
+}
+.container{
+    min-width: 100%;
+    max-width:100%;
+   
+}
+input {
+    width: 100%;
+}
+body{
+    background-color: black;
+}
+button, input {
+    overflow: visible; 
+    background-color:#343a40;
+    color: white;
+}
+#mySelect{
+    background-color:#343a40;
+    color: white;
+    padding: 1px,0px,1px,0px;
+    border-width: 2px;
+    width: 100%;
+    border-style: inset;
+    border-spacing: 2px,2px;
+}
